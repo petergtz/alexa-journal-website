@@ -1,0 +1,9 @@
+---
+applications:
+- name: mein-tagebuch-website
+  memory: 32M
+  instances: 1
+  buildpacks:
+    - staticfile_buildpack
+  routes:
+    - route: mein-tagebuch.eu-de.mybluemix.net
