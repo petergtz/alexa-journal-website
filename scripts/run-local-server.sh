@@ -1,3 +1,3 @@
 #!/bin/bash -xe
 
-hugo server -D --disableFastRender
+hugo server -D --disableFastRender --debug
