@@ -16,7 +16,7 @@ taxonomies:
 
 params:
   # Header text, can be markdown
-  project_name: '![alt text](journal-logo-108.png "Logo Title Text 1")'
+  project_name: '![Mein Tagebuch Logo](journal-logo-108.png)'
   project_tagline: Because every day is worth remembering
 
   # Date format for post list and single pages
@@ -24,7 +24,7 @@ params:
   dateFormat: 2006-01-02
 
   # Footer text, can be markdown
-  footer: Made with [Hugo](https://gohugo.io/). Themed by [Cayman](https://github.com/zwbetz-gh/cayman-hugo-theme).
+  footer: 'Page source: https://github.com/petergtz/alexa-journal-website'
 
   # If true, the CSS/JS for Katex math typesetting are enabled
   katex: true

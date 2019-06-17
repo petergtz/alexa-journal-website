@@ -12,20 +12,11 @@
     
     <item>
       <title></title>
-      <link>https://mein-tagebuch.eu-de.mybluemix.net/de/</link>
+      <link>https://mein-tagebuch.eu-de.mybluemix.net/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://mein-tagebuch.eu-de.mybluemix.net/de/</guid>
-      <description>Mein Tagebuch für Amazon Alexa Einführung Mein Tagebuch ermöglicht es, Tagebucheinträge mithilfe von Amazon Alexa zu verfassen. Einträge können dabei für den aktuellen Tag oder für vergangene Tage verfasst werden. Außerdem kann in vergangenen Einträgen gesucht werden. Alles was benötigt wird, ist ein Gerät mit Alexa, wie z.B. ein Amazon Echo und ein Google Account. Das Tagebuch wird als Tabelle mit dem namen Tagebuch in Google Drive gespeichert und kann jederzeit von Hand editiert werden.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://mein-tagebuch.eu-de.mybluemix.net/en/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://mein-tagebuch.eu-de.mybluemix.net/en/</guid>
-      <description>My Journal for Amazon Alexa Coming soon in English.</description>
+      <guid>https://mein-tagebuch.eu-de.mybluemix.net/index.html</guid>
+      <description>Mein Tagebuch für Amazon Alexa Choose your language:</description>
     </item>
     
   </channel>

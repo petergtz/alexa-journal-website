@@ -3,12 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://mein-tagebuch.eu-de.mybluemix.net/de/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://mein-tagebuch.eu-de.mybluemix.net/en/</loc>
+    <loc>https://mein-tagebuch.eu-de.mybluemix.net/index.html</loc>
     <priority>0</priority>
   </url>
   
