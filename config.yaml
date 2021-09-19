@@ -2,7 +2,7 @@ baseURL: https://mein-tagebuch.eu-de.mybluemix.net
 # languageCode: en-us
 # defaultContentLanguage: en
 title: Mein Tagebuch / My Journal
-theme: cayman
+theme: cayman-hugo-theme
 
 # Syntax highlighting
 pygmentsCodefences: true

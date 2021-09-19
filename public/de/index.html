@@ -4,13 +4,15 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="Hugo 0.55.6" />
+  <meta name="generator" content="Hugo 0.88.1" />
+  
+  <meta name="description" content="Mein Tagebuch für Amazon Alexa Einführung Mein Tagebuch ermöglicht es, Tagebucheinträge mithilfe von Amazon Alexa zu verfassen. Einträge können dabei für den aktuellen Tag oder für vergangene Tage verfasst werden. Außerdem kann in vergangenen Einträgen gesucht werden. Alles was benötigt wird, ist ein Gerät mit Alexa, wie z.B. ein Amazon Echo und ein Google Account. Das Tagebuch wird als Tabelle mit dem namen Tagebuch in Google Drive gespeichert und kann jederzeit von Hand editiert werden.">
   <link rel="stylesheet" href="https://mein-tagebuch.eu-de.mybluemix.net/css/normalize.css">
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
   
   
   
-  <link rel="stylesheet" href="https://mein-tagebuch.eu-de.mybluemix.net/css/cayman.06f345ce4acefb823b16717f61a27d3a2a57d753d051784ad15aec2ec244f7be.css">
+  <link rel="stylesheet" href="https://mein-tagebuch.eu-de.mybluemix.net/css/cayman.564d788b154df3a6e7c42ba35b908dce03af33c133903d6685de3595aeb20935.css">
   
   
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -27,7 +29,7 @@
 <body>
   <section class="page-header">
   <h1 class="project-name">
-    <img src="journal-logo-108.png" alt="Mein Tagebuch Logo" />
+    <img src="journal-logo-108.png" alt="Mein Tagebuch Logo">
   </h1>
   <h2 class="project-tagline">
     Because every day is worth remembering
@@ -53,32 +55,18 @@
   <section class="main-content">
     
   <h1></h1>
-  
-
-<h1 id="mein-tagebuch-für-amazon-alexa"><strong>Mein Tagebuch</strong> für Amazon Alexa</h1>
-
+  <h1 id="mein-tagebuch-für-amazon-alexa"><strong>Mein Tagebuch</strong> für Amazon Alexa</h1>
 <h2 id="einführung">Einführung</h2>
-
-<!-- [link](#datenschutzerklärung) -->
-
+<!-- raw HTML omitted -->
 <p><strong>Mein Tagebuch</strong> ermöglicht es, Tagebucheinträge mithilfe von Amazon Alexa zu verfassen. Einträge können dabei für den aktuellen Tag oder für vergangene Tage verfasst werden. Außerdem kann in vergangenen Einträgen gesucht werden. Alles was benötigt wird, ist ein Gerät mit Alexa, wie z.B. ein Amazon Echo und ein Google Account. Das Tagebuch wird als Tabelle mit dem namen <code>Tagebuch</code> in Google Drive gespeichert und kann jederzeit von Hand editiert werden.</p>
-
 <h2 id="datenschutzerklärung">Datenschutzerklärung</h2>
-
-<!-- [link](#der-mein-tagebuch-skill-für-alexa) -->
-
+<!-- raw HTML omitted -->
 <p>Der <strong>Mein Tagebuch</strong> Alexa Skill verarbeitet Google Account User Token, die vom Alexa Service als Teil des Requests mitgegeben werden. Dieses Token wird ausschließlich zur Erzeugung und zur Bearbeitung der <code>Tagebuch</code>-Tabelle in Google Drive verwendet. Die Tokens werden nicht anderweitig gespeichert oder verwendet und werden nach einem Request wieder verworfen.</p>
-
 <p>Tagebucheinträge werden von Nutzern selbst über die Spracheingabe von Alexa eingegeben. Einträge werden anschließend an Amazons Alexa Service geschickt und von dort weitergegeben an den Tagebuch Skill, der in der IBM Cloud gehostet ist. Von dort werden sie an Googles Spreadhseet API geschickt und in der <code>Tagebuch</code>-Tabelle in Google Drive in schriftform gespeichert. Eine <code>Tagebuch</code>-Tabelle verwendet pro Eintrag eine Zeile in der das Datum und der Text des Eintrags gespeichert wird, sowie der aktuelle Zeitstempel.</p>
-
 <p>Tagebucheinträge eines Nutzers können auch wieder abgerufen werden. Nachdem ein Nutzer identifiziert hat, welche Einträge abgerufen werden sollen, werden Tagebucheinträge  vom <strong>Mein Tagebuch</strong> Alexa Skill aus der <code>Tagebuch</code>-Tabelle in Google Drive abgerufen und weitergegeben an Amazons Alexa Service, der sie wiederum an das Alexa-Gerät des Nutzers weitergibt, wo sie von Alexa wiedergegeben werden.</p>
-
 <p>Der <strong>Mein Tagebuch</strong> Alexa Skill speichert Tagebuch-Einträge von Benutzern ausschließlich in dem verknüpften Google Konto unter der Datei <code>Tagebuch</code> in Google Drive. Eine weitere Speicherung findet nicht statt. Für mehr Informationen wie Amazon Alexa diese Daten verarbeitet, finden Sie <a href="https://www.amazon.de/gp/help/customer/display.html?nodeId=GA7E98TJFEJLYSFR">hier</a>.</p>
-
 <p>Tagebucheinträge eines Nutzers werden niemals geteilt mit anderen Nutzern, oder sonst irgendwie verfügbar für Dritte gemacht. Selbstverständlich kann ein Nutzer sich entscheiden, die Funktionen von Google Drive zu verwenden um eine <code>Tagebuch</code>-Tabelle mit anderen Google Drive Nutzern zu teilen oder sie öffentlich zu machen.</p>
-
 <p>Eine <code>Tagebuch</code>-Tabelle kann zu jedem beliebigen Zeitpunkt vom Nutzer editiert oder gelöscht werden.</p>
-
 <p>Eine andere Nutzung der Google-Nutzerdaten als die oben angegebene findet ausdrücklich nicht statt.</p>
 
 
