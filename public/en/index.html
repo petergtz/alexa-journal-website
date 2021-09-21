@@ -56,7 +56,16 @@
     
   <h1></h1>
   <h1 id="my-journal-for-amazon-alexa"><strong>My Journal</strong> for Amazon Alexa</h1>
-<p><em>Coming soon in English. Skill itself and privacy is only available in German for now</em></p>
+<h2 id="introduction">Introduction</h2>
+<p><strong>My Journal</strong> allows you to write journal entries using Amazon Alexa. Entries can be made for the current day or for previous days. You can also search past entries. All that is needed is a device with Alexa, such as an Amazon Echo, and a Google account. The journal is saved as a table with the name <code>Journal</code> in Google Drive and can be manually edited at any time.</p>
+<h2 id="privacy-policy">Privacy Policy</h2>
+<p>The <strong>My Journal</strong> Alexa skill processes <em>Google account user tokens</em>, which are given by the Alexa service as part of the request. This token is only used to create and edit the <code>Journal</code> table in Google Drive. The tokens are not stored or used otherwise and are discarded after a request.</p>
+<p>Journal entries are entered by users themselves using Alexa voice input. Entries are then sent to Amazon&rsquo;s Alexa service and passed on from there to the Journal skill, which is hosted in Amazon AWS Lambda. From there, they are sent to Google&rsquo;s Spreadhseet API and persisted in the <code>Journal</code> table in Google Drive. A <code>Journal</code> table uses one line for each entry in which the date and text of the entry is saved, as well as the current timestamp.</p>
+<p>A user&rsquo;s journal entries can also be retrieved. After a user has identified which entries should be retrieved, journal entries from <strong>My Journal</strong> Alexa skill are retrieved from the <code>Journal</code> table in Google Drive and passed on to Amazon&rsquo;s Alexa service, which in turn sends them to the user&rsquo;s Alexa device where they are spoken out by Alexa.</p>
+<p>The <strong>My Journal</strong> Alexa skill persists users' journal entries exclusively in the linked Google account under the file <code>Journal</code> in Google Drive. No further storage takes place. For more information on how Amazon Alexa processes this data, see <a href="https://www.amazon.com/gp/help/customer/display.html?nodeId=GVP69FUJ48X9DK8V">here</a>.</p>
+<p>A user&rsquo;s journal entries are never shared with other users or otherwise made available to third parties. Of course, a user can choose to use the functions of Google Drive to share a <code>Journal</code> table with other Google Drive users or to make it public.</p>
+<p>A <code>Journal</code> table can be edited or deleted by the user at any time.</p>
+<p>The use of Google user data other than that specified above excplicitly does not take place.</p>
 
 
     <footer class="site-footer">
