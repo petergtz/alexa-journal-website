@@ -1,4 +1,4 @@
-baseURL: https://mein-tagebuch.eu-de.mybluemix.net
+baseURL: https://mein-tagebuch.net
 # languageCode: en-us
 # defaultContentLanguage: en
 title: Mein Tagebuch / My Journal
@@ -85,3 +85,9 @@ menu:
 #         help: Aide
 #     title: Mon blogue
 #     weight: 2
+
+deployment:
+  targets:
+    - name: default
+      URL: 's3://mein-tagebuch.net?region=eu-west-1'
+      cloudFrontDistributionID: E3KOP7TEV6P4CM
