@@ -2,7 +2,7 @@
 
 ## Einführung
 
-**Mein Tagebuch** ermöglicht es, Tagebucheinträge mithilfe von Amazon Alexa zu verfassen. Einträge können dabei für den aktuellen Tag oder für vergangene Tage verfasst werden. Außerdem kann in vergangenen Einträgen gesucht werden. Alles was benötigt wird, ist ein Gerät mit Alexa, wie z.B. ein Amazon Echo und ein Google Account. Das Tagebuch wird als Tabelle mit dem namen `Tagebuch` in Google Drive gespeichert und kann jederzeit von Hand editiert werden.
+**Mein Tagebuch** ermöglicht es, Tagebucheinträge mithilfe von [Amazon Alexa](https://amazon.de/b?node=12775495031) zu verfassen. Einträge können dabei für den aktuellen Tag oder für vergangene Tage verfasst werden. Außerdem kann in vergangenen Einträgen gesucht werden. Alles was benötigt wird, ist ein Gerät mit Alexa, wie z.B. ein Amazon Echo und ein Google Account. Das Tagebuch wird als Tabelle mit dem namen `Tagebuch` in Google Drive gespeichert und kann jederzeit von Hand editiert werden.
 
 ## Datenschutzerklärung
 

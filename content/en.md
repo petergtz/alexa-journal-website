@@ -2,7 +2,7 @@
 
 ## Introduction
 
-**My Journal** allows you to write journal entries using Amazon Alexa. Entries can be made for the current day or for previous days. You can also search past entries. All that is needed is a device with Alexa, such as an Amazon Echo, and a Google account. The journal is saved as a table with the name `Journal` in Google Drive and can be manually edited at any time.
+**My Journal** allows you to write journal entries using [Amazon Alexa](https://amazon.com/b?node=21576558011). Entries can be made for the current day or for previous days. You can also search past entries. All that is needed is a device with Alexa, such as an Amazon Echo, and a Google account. The journal is saved as a table with the name `Journal` in Google Drive and can be manually edited at any time.
 
 ## Privacy Policy
 
